@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivtiy" >
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/tv_current_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="40sp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_current_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="44"
+            android:textSize="40sp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tv_current_hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_current_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_time"
+        android:layout_centerHorizontal="true"
+        android:text="@string/current_time"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/but_take_snapshot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/take_snapshot" />
+
+</RelativeLayout>
