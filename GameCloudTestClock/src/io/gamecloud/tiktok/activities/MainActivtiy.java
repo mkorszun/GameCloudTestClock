@@ -1,4 +1,6 @@
-package io.gamecloud.gamecloudtestclock;
+package io.gamecloud.tiktok.activities;
+
+import io.gamecloud.tiktok.R;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -51,7 +53,7 @@ public class MainActivtiy extends Activity implements Runnable {
 		super.onCreate(savedInstanceState);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		
+
 		setupViews();
 		setupEvents();
 

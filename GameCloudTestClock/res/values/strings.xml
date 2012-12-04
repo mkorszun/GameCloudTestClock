@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">GameCloudTestClock</string>
-    <string name="hello_world">Hello world!</string>
+    <!-- Common Dialogs -->
+    <string name="s_alert">warning</string>
+    <string name="s_no_int_message">We have no connection to the Internet at this moment…</string>
+    <string name="s_exit">Exit</string>
+    <string name="s_wifi_settings">Wi-Fi Settings</string>
+    
+    
+    
+    <string name="app_name">TikTok</string>
+    <string name="app_welcome">From GameCloud with Lov3</string>
+    <string name="small_gc_logo">game cloud simple logo</string>
+    
     <string name="menu_settings">Settings</string>
     
     <string name="current_time">Current time:</string>
     <string name="take_snapshot">Take Snapshot</string>
-
+	
 </resources>
